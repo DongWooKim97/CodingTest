@@ -19,5 +19,7 @@ function solution(n) {
         if (i === Math.sqrt(n)) return (i + 1) ** 2;
     }
     return -1
+
+
 }
 console.log(solution(16));
