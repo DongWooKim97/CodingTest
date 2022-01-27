@@ -13,7 +13,7 @@
 // }
 // console.log(solution(3));
 
-/////2nd Try
+/////2nd Try and last
 function solution(n) {
     for (let i = 0; i <= Math.sqrt(n); i++) {
         if (i === Math.sqrt(n)) return (i + 1) ** 2;
