@@ -1,9 +1,21 @@
+// // function solution(s) {
+// //   return ((s.length === 6) || (s.length === 4) && s.split('').every((item) => {
+// //     return !isNaN(item);
+// //   }))
+// // }
+// // console.log(solution("1234"));
+
+// var a = "a123";
+
+// var x = a.split('').every((item) => {
+//   !isNaN(item)
+// });
+// console.log(x);
 function solution(s) {
-  const len = s.length
-
-  if (len === 4 || len === 6) {
-    return s.split("").every((c) => !isNaN(c))
-  }
-
-  return false
+  return ((s.length === 6) || (s.length === 4) && s.split('')
+    .every((item) => {
+      console.log(item);
+      !isNaN(item)
+    }))
 }
+console.log(solution("1234"));
