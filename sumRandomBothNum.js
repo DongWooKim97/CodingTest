@@ -14,3 +14,13 @@ function solution(numbers) {
   return final.sort((a, b) => a - b);
 }
 console.log(solution([2, 1, 3, 4, 1]));
+
+function s(q) {
+  var a = [1, 5, 7, 8, 9, 111, 12, 45, 8, 999, 1000];
+  //const x = [...new Set(a)].sort((a, b) => a - b);
+  return [...new Set(a)].sort((a, b) => a - b);
+
+}
+
+// const x = [...new Set(a)];
+console.log(s(1));
